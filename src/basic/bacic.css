@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(163, 171, 171);
+}
+#container {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 500px;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: white;
+}
+#translate input {
+  width: 80%;
+  padding: 5px;
+  outline: none;
+}
+#btn-translate {
+  padding: 7px;
+  width: 80px;
+  background-color: rgb(105, 131, 224);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+#translate-content textarea {
+  width: 80%;
+  outline: none;
+}
+#translate-content {
+  display: flex;
+  align-items: center;
+}
+#translate-content button {
+  padding: 7px;
+  margin: 0 2px;
+  border-radius: 5px;
+  border: none;
+}
+#btn-delete {
+  background-color: brown;
+  color: white;
+}
+#btn-edit {
+  background-color: rgb(105, 131, 224);
+  color: white;
+}
